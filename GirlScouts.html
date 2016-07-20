@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<title>Rayna Mishra - Girl Scouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+html,body,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-sidenav a,.w3-sidenav h4 {font-weight:bold;font-size: 25px;font-family: "Monospace", Monospace}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-collapse w3-blue-grey w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
+  <div class="w3-container">
+    <a href="#" onClick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">
+      <em class="fa fa-remove"></em>
+    </a>
+    <img src="../Pictures/ehh.png" class="w3-round" height="250" width="300"><br><br>
+    <h4 class="w3-padding-0">Rayna Mishra</h4>
+    
+  </div>
+  <a href="website.html" class="w3-padding w3-text-light-blue">HOME</a> 
+  <!--<a href="#" class="w3-padding">ABOUT</a> -->
+ <!--<a href="#" class="w3-padding">PORTFOLIO</a> -->
+ <div class="w3-center w3-container w3-margin-bottom w3-white">
+  <a href="contactpage.html" class="w3-padding w3-text-light-blue">CONTACT</a>
+  </div>
+   
+  <div class="w3-section w3-padding-top w3-large">
+    <a href="#" class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-facebook-official"></i></a>
+    <!---
+    <a href="#" class="w3-hover-white w3-hover-text-red w3-show-inline-block"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#" class="w3-hover-white w3-hover-text-light-blue w3-show-inline-block"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="w3-hover-white w3-hover-text-grey w3-show-inline-block"><i class="fa fa-flickr"></i></a>--->
+    <a href="#" class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-linkedin"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+<header class="w3-container">
+    <a href="#"><img src="img_avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+  <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+  <div class= "w3-padding12" >
+  <style>
+h1{font-family: "Monospace", Monospace;font-size:66px}
+</style>
+  <h1 class="w3-center w3-teal"><strong>Rayna Mishra  Portfolio</strong></h1>
+  <!--
+  <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-btn">ALL</button>
+      <button class="w3-btn w3-white"><em class="fa fa-diamond w3-margin-right"></em>Design</button>
+      <button class="w3-btn w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+      <button class="w3-btn w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+    </div>
+  </header>
+  -->
+   <div class="w3-center w3-padding-12">
+	<h3> Contact Info <h3/>
+  <div class = "w3-center w3-padding-12">
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-center w3-container w3-margin-bottom w3-white">
+    <div class="w3-padding-12"></div>
+      <img src="glogo.png" alt="Norway" width = "400" height="300" >
+      <div class="w3-container w3-blue">
+        <p><strong>example@gmail.com</strong></p>
+</div>
+<div class="w3-padding-12"></div>
+    </div>
+    <div class="w3-center w3-container w3-margin-bottom w3-white">
+    <div class="w3-padding-12"></div>
+      <img src="cellphone.jpg" alt="Norway" width="170" height="300" >
+      <div class="w3-padding-12"></div>
+      <div class="w3-container w3-blue">
+        <p><strong>1(234)-567-8901</strong></p>
+      </div>
+      <div class="w3-padding-12"></div>
+    </div>
+  
+  
+  <!-- Footer -->
+  
+  <footer class="w3-container w3-padding-32 w3-white">
+<div class = "w3-center">
+  <div class="w3-row-padding">
+    <div class="w3-center">
+    <p class="w3-text-blue">Template by W3.CSS</p>
+      <h3>
+      Copyright
+      <h3>
+      <h4>Rayna Mishra</h4>
+      <h5>2016</h5>
+    </div>
+    <div class="w3-center"> </div>
+  </div>
+</footer>
+  
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+ 
+
+
+
+
